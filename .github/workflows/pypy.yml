@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [pypy2, pypy3]
+        python-version: ['pypy2.7', 'pypy3.7', 'pypy3.8', 'pypy3.9']
 
     name: ${{ matrix.python-version }}
 
